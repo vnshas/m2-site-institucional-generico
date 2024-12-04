@@ -1,5 +1,5 @@
 .faq{
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .faq .flex-box{
@@ -46,3 +46,63 @@
     gap: 2.5rem;
 
 }
+
+@media(max-width:768px){
+    .faq .flex-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.75rem;
+    }
+    .faq .title2{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+
+    .faq .title3{
+        font-size: 1.25rem;
+    }
+
+    .faq .text1{
+        font-size: 1.115rem;
+    }
+    .faq button{
+        width: 100%;
+    }
+    .frequent{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width:425px){
+    .faq{
+        padding: 0;
+    }
+
+    .faq button{
+        width: 100%;
+    }
+
+    .faq .flex-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.75rem;
+    }
+
+    .faq .title2{
+        font-size: 1.5625rem;
+        text-align: center;
+    }
+
+    .faq .title3{
+        font-size: 1.25rem;
+    }
+
+    .faq .text1{
+        font-size: 1rem;
+        text-align: flex-start;
+    }
+   
+}   

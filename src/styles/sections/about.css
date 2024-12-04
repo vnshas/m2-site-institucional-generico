@@ -2,6 +2,7 @@
     padding: 60px;
 }
 
+
 .about .flex-box{
     display: flex;
     align-items: center;
@@ -15,4 +16,49 @@
 
 .about .text1{
     color: var(--color-gray5);
+}
+
+@media(max-width:768px){
+    .about .flex-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .about .title2{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    .about .text1{
+        font-size: 1.115rem;
+        text-align: flex-start;
+    }
+
+}
+
+
+@media (max-width:425px){
+    .about{
+        padding: 0;
+    }
+    
+    .about .flex-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .about .title2{
+        font-size: 1.5625rem;
+        text-align: flex-start;
+    }
+
+    .about .text1{
+        font-size: 1rem;
+        text-align: flex-start;
+    }
+
+
 }

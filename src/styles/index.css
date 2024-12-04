@@ -7,4 +7,6 @@
 @import "/src/styles/footer.css";
 @import "/src/styles/modal.css";
 
-/*body{background-color: var(--color-gray1);}*/
+body{
+    /*background-color: var(--color-gray1);*/
+}

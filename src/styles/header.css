@@ -1,8 +1,8 @@
-.header .container{
+.header{
     position: fixed;
+    width: 100%;
     top: 0;
     z-index: 1;
-    width: 100%;
 }
 
 .header .flex-box{
@@ -10,6 +10,8 @@
     align-items: center;
     justify-content: space-around;
     gap: 40px;
+    padding: 1.5rem;
+    
 }
 
 .header button{
@@ -17,4 +19,16 @@
     border: solid 1px var(--color-gray7);
     padding: 1.25rem 2rem;
 
+}
+
+@media (max-width:425px){
+    .header .flex-box{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .header button{
+        display: none;
+    }
 }

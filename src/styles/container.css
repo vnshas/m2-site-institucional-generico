@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    max-width: 1256x;
+    max-width: 1256px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -12,10 +12,10 @@
 
 .container .xs{
     max-width: 580px;
-    
+    width: 100%;
 }
 
 .container .xxs{
     max-width: 490px;
-    
+    width: 100%;
 }
