@@ -1,0 +1,59 @@
+.comments{
+    padding: 20px 0;
+}
+
+.comments .grid-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    padding: 1.875rem;
+
+}
+
+.students-comments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 3.75rem;
+    width: 100%;
+    position: sticky;
+    top: 9rem;
+}
+
+.student-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+.student{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .625rem;
+}
+
+
+.comments .title2{
+    color: var(--color-gray7);
+}
+
+.comments .title3{
+    color: var(--color-gray6);
+}
+
+.comments .text1{
+    color: var(--color-gray7);
+}
+
+.comments .text2{
+    color: var(--color-gray5);
+}
+
+.comments .text3{
+    color: var(--color-gray4);
+}
+
+

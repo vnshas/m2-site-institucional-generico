@@ -1,0 +1,48 @@
+.faq{
+    padding: 20px;
+}
+
+.faq .flex-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.75rem;
+}
+
+.faq .title2, .faq .title3{
+    color: var(--color-gray6);
+}
+
+.faq .text1{
+    color: var(--color-gray4);
+}
+
+.faq button{
+    padding: 20px 32px;
+    background-color: var(--color-brand1);
+    color: var(--color-gray7);
+}
+
+.frequent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    position: sticky;
+    top: 10rem;
+}
+
+
+.faq ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.faq li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+
+}

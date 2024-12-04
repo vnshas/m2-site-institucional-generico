@@ -1,0 +1,53 @@
+dialog{
+    padding: 0;
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    border: none;
+  }
+
+.modal__container{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    gap: 1rem;
+}
+
+dialog::backdrop{
+    background-color: rgba(0,0,0,0.7);
+}
+  
+
+.modal__register{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal__container input{
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--color-gray1);
+    color: var(--color-gray4);
+}
+
+.modal__container .modal__button2{
+    background-color: var(--color-brand1);
+    color: var(--color-gray7);
+    padding: 1rem 2rem;
+    width: 100%;
+    
+
+}
+
+.modal__container .title3{
+    color: var(--color-gray7);
+}
+
+.modal__container .text3{
+    color: var(--color-gray4);
+}

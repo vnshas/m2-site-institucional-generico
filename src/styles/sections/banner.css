@@ -1,0 +1,33 @@
+.banner .flex-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.75rem;
+    padding: 5rem;
+    margin: 5rem;
+    
+}
+
+.banner .title1{
+   
+    color: var(--color-gray6);   
+}
+
+.banner .title1 span{
+    
+    color: var(--color-brand1);   
+}
+
+.banner .text1{
+    
+    color: var(--color-gray4);
+    text-align: center;
+}
+
+.banner button{
+    background-color: var(--color-brand1);
+    font-family: var(--font-primary);
+    color: var(--color-gray7);
+    padding: 20px 32px;
+}

@@ -1,0 +1,18 @@
+.about{
+    padding: 60px;
+}
+
+.about .flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2.5rem;
+}
+
+.about .title2{
+    color: var(--color-gray6);
+}
+
+.about .text1{
+    color: var(--color-gray5);
+}

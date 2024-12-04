@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --color-brand1:#4C6EF5;
+    --color-brand2:#364FC7;
+    --color-gray1: #191C1F;
+    --color-gray2: #212529;
+    --color-gray3: #343A40;
+    --color-gray4: #ADB5BD;
+    --color-gray5: #CED4DA;
+    --color-gray6: #EDF2FF;
+    --color-gray7: #F8F9FA;
+
+}
+
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.title1{
+    font-size: 3.25rem;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.title2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.title3{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.text1{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text2{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+.text3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+.text4{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 150%;
+}

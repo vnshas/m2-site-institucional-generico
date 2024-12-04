@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    max-width: 1256x;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container .small{
+    max-width: 800px;
+    
+}
+
+.container .xs{
+    max-width: 580px;
+    
+}
+
+.container .xxs{
+    max-width: 490px;
+    
+}
