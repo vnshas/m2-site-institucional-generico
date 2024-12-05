@@ -1,4 +1,4 @@
-@import "./src/styles/sections/banner.css";
-@import "./src/styles/sections/about.css";
-@import "./src/styles/sections/faq.css";
-@import "./src/styles/sections/comments.css";
+@import "../sections/banner.css";
+@import "../sections/about.css";
+@import "../sections/faq.css";
+@import "../sections/comments.css";

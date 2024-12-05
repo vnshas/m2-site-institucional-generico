@@ -1,11 +1,11 @@
 @import "../styles/globalStyles.css";
-@import "./src/styles/reset.css";
-@import "./src/styles/header.css";
-@import "./src/styles/background.css";
-@import "./src/styles/container.css";
-@import "./src/styles/sections/index.css";
-@import "./src/styles/footer.css";
-@import "./src/styles/modal.css";
+@import "..styles/reset.css";
+@import "..styles/header.css";
+@import "../styles/background.css";
+@import "../styles/container.css";
+@import "../sections/index.css";
+@import "../styles/footer.css";
+@import "../styles/modal.css";
 
 body{
     /*background-color: var(--color-gray1);*/
