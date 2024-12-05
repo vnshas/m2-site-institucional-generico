@@ -21,6 +21,10 @@
     background-color: var(--color-brand1);
     color: var(--color-gray7);
 }
+.faq button:hover{
+    background-color: var(--color-brand2);
+    transition: 0.4s;
+}
 
 .frequent{
     display: flex;

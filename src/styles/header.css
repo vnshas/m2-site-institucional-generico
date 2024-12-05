@@ -21,6 +21,13 @@
 
 }
 
+.header button:hover{
+    background-color: var(--color-gray7);
+    color: var(--color-gray1);
+    transition: 0.4s;
+}
+
+
 @media (max-width:425px){
     .header .flex-box{
         display: flex;
