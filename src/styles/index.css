@@ -3,7 +3,7 @@
 @import "./src/styles/header.css";
 @import "./src/styles/background.css";
 @import "./src/styles/container.css";
-@import "./src/styles/sections/index.css";
+@import ".../sections/index.css";
 @import "./src/styles/footer.css";
 @import "./src/styles/modal.css";
 
