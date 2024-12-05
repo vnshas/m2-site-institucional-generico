@@ -30,6 +30,12 @@
     padding: 20px 32px;
 }
 
+.banner button:hover{
+    background-color: var(--color-brand2);
+    transition: 0.4s;
+}
+
+
 @media(max-width:1024px){
     .banner .title1{
         font-size: 2.5rem;

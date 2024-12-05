@@ -37,14 +37,19 @@ dialog::backdrop{
     color: var(--color-gray4);
 }
 
-.modal__container .modal__button2{
+.modal__container .modal__button1{
     background-color: var(--color-brand1);
     color: var(--color-gray7);
     padding: 1rem 2rem;
     width: 100%;
-    
-
 }
+
+.modal__button1:hover{
+    background-color: var(--color-brand2);
+    transition: 0.4s;
+}
+
+
 
 .modal__container .title3{
     color: var(--color-gray7);
