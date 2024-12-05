@@ -1,4 +1,4 @@
-@import "./src/styles/globalStyles.css";
+@import "../src/styles/globalStyles.css";
 @import "./src/styles/reset.css";
 @import "./src/styles/header.css";
 @import "./src/styles/background.css";
